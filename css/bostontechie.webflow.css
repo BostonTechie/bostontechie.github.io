@@ -191,6 +191,7 @@ blockquote {
   height: 100%;
 }
 
+
 .latestProject {
   position: absolute;
   left: 0px;
@@ -198,7 +199,7 @@ blockquote {
   right: 0px;
   bottom: 0px;
   height: 100%;
-  background-image: url('../images/posts.jpg');
+  background-image: url('../images/wepik-202218-91019.png');
   background-position: 50% 50%;
   background-size: cover;
   -webkit-transition: -webkit-transform 1000ms ease;
@@ -456,19 +457,7 @@ blockquote {
   color: #fff;
 }
 
-.hero-overlay {
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  right: 0px;
-  bottom: 0px;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  background-image: url('../images/Capture.PNG');
-  background-position: 50% 50%;
-  background-size: 100%;
-  background-repeat: no-repeat;
-}
+
 
 .cta-section {
   padding-top: 60px;
@@ -683,6 +672,31 @@ blockquote {
   color: #666;
   font-size: 17px;
   line-height: 23px;
+}
+
+h4{
+  z-index:-1;
+  color:white;
+  font-family: Lato, sans-serif;
+  text-align: center;
+
+}
+
+.hero-overlay {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  background-image: url('../images/Capture.PNG');
+  background-position: 50% 50%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index:-1;
+  
+  
 }
 
 .home-page-heading {
