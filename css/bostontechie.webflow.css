@@ -207,6 +207,12 @@ blockquote {
   transition: transform 1000ms ease, -webkit-transform 1000ms ease;
 }
 
+.latestProject:hover {
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+}
+
 .postImage {
   position: absolute;
   left: 0px;
@@ -221,6 +227,12 @@ blockquote {
   transition: -webkit-transform 1000ms ease;
   transition: transform 1000ms ease;
   transition: transform 1000ms ease, -webkit-transform 1000ms ease;
+}
+
+.postImage:hover {
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
 }
 
 .tile-image {
